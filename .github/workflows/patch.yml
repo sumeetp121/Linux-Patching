@@ -42,4 +42,4 @@ jobs:
           ansible-playbook \
             -i inventory/hosts.ini \
             playbooks/patch.yml \
-            --limit rhel_test
+            --limit rhel-test-01
